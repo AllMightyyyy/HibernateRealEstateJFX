@@ -28,7 +28,7 @@
             <TextField fx:id="ownerField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
 
             <Label text="Real Estate Name:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-            <TextArea fx:id="realEstateNameField" GridPane.rowIndex="2" GridPane.columnIndex="1" prefRowCount="3"/>
+            <TextField fx:id="realEstateNameField" GridPane.rowIndex="2" GridPane.columnIndex="1" />
 
             <Label text="Address:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
             <TextField fx:id="addressField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
@@ -39,7 +39,7 @@
             <Label text="Price:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
             <TextField fx:id="priceField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
 
-            <Button text="Save" onAction="#handleSave" GridPane.rowIndex="6" GridPane.columnIndex="1" alignment="CENTER_RIGHT" styleClass="save-button"/>
+            <Button text="Save" fx:id="saveButton" onAction="#handleSave" GridPane.rowIndex="6" GridPane.columnIndex="1" alignment="CENTER_RIGHT" styleClass="save-button"/>
         </GridPane>
     </children>
 </AnchorPane>
